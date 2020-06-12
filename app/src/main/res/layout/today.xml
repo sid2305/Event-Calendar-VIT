@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white1"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Name : Line Surfer\nClub : RoboVITics\nTime: 9:00am - 5:00pm\nVenue: CS Hall"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@id/tv1"
+                android:text="--------------------------------------------------------------------------------------------------------------------------"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l1"
+                android:text="Name : Core Committee Selections\nChapter : ISTE\nTime: 5:00pm - 7:00pm\nVenue: SMV-234"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@id/tv2"
+                android:text="--------------------------------------------------------------------------------------------------------------------------"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l2"
+                android:text="Name : Membership Drive\nClub : Creativity\nTime:     -\nVenue: Registration Desks in SJT and TT"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@id/tv3"
+                android:text="--------------------------------------------------------------------------------------------------------------------------"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l3"
+                android:text="Name : Seminar-Aero Day\nClub : SAE India-VIT\nTime: 6:00pm - 8:00pm\nVenue: MB-111"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/l4"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@id/tv4"
+                android:text="--------------------------------------------------------------------------------------------------------------------------"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l4"
+                android:text="Name : Monday Music\nClub : Music Club\nTime: 5:30pm - 8:30pm\nVenue: Greenos"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/l5"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@id/tv5"
+                android:text="--------------------------------------------------------------------------------------------------------------------------"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l5"
+                android:text="Name : Core Committee Selections\nClub : 5th Pillar\nTime: 6:00pm - 7:30pm\nVenue: SMV-122/123"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/l6"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@id/tv6"
+                android:text="--------------------------------------------------------------------------------------------------------------------------"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l6"
+                android:text="Name : Explore MATLAB Workshop\nChapter : ISOI\nTime: 6:00pm - 8:00pm\nVenue:    -"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/l7"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@id/tv7"
+                android:text="--------------------------------------------------------------------------------------------------------------------------"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l7"
+                android:text="Name : Monthly Quiz Sessions \nClub : Quiz Club \nTime: 5:30pm - 7:30pm\nVenue: SMV-235"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/l8"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@id/tv8"
+                android:text="--------------------------------------------------------------------------------------------------------------------------"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l8"
+                android:text="Name : Core Committee Selections\nClub : Becoming I Foundation\nTime: 6:00pm - 7:30pm\nVenue: TT-302/303"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/l9"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@id/tv9"
+                android:text="--------------------------------------------------------------------------------------------------------------------------"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l9"
+                android:text="Name : Workshop on AppDev(Swift)\nClub : iOS Developer Community\nTime: 5:00pm - 7:00pm\nVenue: SJT-305\n"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

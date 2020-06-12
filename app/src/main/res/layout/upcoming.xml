@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white1"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Name : Word Play 2.0 \nClub : The Hindu Club\nTime: 5:00Pm-7:00pm\nVenue: TT 201, TT-202\nDate: 29/10/15"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@id/tv1"
+                android:text="--------------------------------------------------------------------------------------------------------------------------"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l1"
+                android:text="Name : Core Committee Selections\nChapter : ISA VIT \nTime: 6:00pm-7:30pm\nVenue: SMV-101\nDate: 30/10/15"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@id/tv2"
+                android:text="--------------------------------------------------------------------------------------------------------------------------"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l2"
+                android:text="Name : Orientation for each 1 teach 1 \nClub : Juvenile Care \nTime: 6:00pm-7:30pm\nVenue: SMV-122/123 \nDate: 01/11/15"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@id/tv3"
+                android:text="--------------------------------------------------------------------------------------------------------------------------"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l3"
+                android:text="Name :  BookWiser 2.0 \nClub : VIT Spartans \nTime: 6:00pm-7:30pm\nVenue: SJT-301/303\nDate: 01/11/15"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/l4"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@id/tv4"
+                android:text="--------------------------------------------------------------------------------------------------------------------------"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l4"
+                android:text="Name : RUBY workshop \nChapter : ACM VIT \nTime: 5:00pm-7:30pm\nVenue: Kamraj Auditorium \nDate: 03/11/15\n"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

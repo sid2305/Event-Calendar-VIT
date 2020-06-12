@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragment0"
+            android:checked="false"
+            android:icon="@mipmap/ic_archive_grey600_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/fragment1"
+            android:checked="false"
+            android:icon="@mipmap/ic_archive_grey600_24dp"
+            android:title="Today" />
+        <item
+            android:id="@+id/fragment2"
+            android:checked="false"
+            android:icon="@mipmap/ic_archive_grey600_24dp"
+            android:title="Upcoming"/>
+        <item
+            android:id="@+id/fragment3"
+            android:checked="false"
+            android:icon="@mipmap/ic_archive_grey600_24dp"
+            android:title="Clubs and Chapters"/>
+        <item
+            android:id="@+id/fragment4"
+            android:checked="false"
+            android:icon="@mipmap/ic_content_paste_grey600_24dp"
+            android:title="OnlineClassboard"/>
+        <item
+            android:id="@+id/fragment5"
+            android:checked="false"
+            android:icon="@mipmap/ic_drafts_grey600_24dp"
+            android:title="About Us"/>
+    </group>
+</menu>
